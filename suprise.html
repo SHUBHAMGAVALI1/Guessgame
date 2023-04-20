@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+<!-- css link -->
+    <link rel="stylesheet" href="suprise.css">
+    <title>suprise</title>
+</head>
+<body onload="compguess()">
+    <section class="firstboxsection" >
+        <div class="firstbox">
+         <h2>Guess The Random Number Between 1 To 100</h2><br>
+        <img src="image/gaming.jpg" alt="logo image"><br>
+        <h3>Select The Difficulty Level</h3>
+
+        <div class="buttontogether">
+            <button onclick="easymode()" class="button">Easy: 10 Attempts</button><br><br>
+            <button onclick="hardmode()" class="button">Hard: 5 Attempts</button>
+        </div>
+    </div>
+    </section>
+
+    <!-- second box -->
+    <section class="secondboxsection">
+    <div class="secondbox">
+        <button onclick="beginnewgame()" class="newgame"> tap to play new game!</button>
+        <h2 id="msg">Your Guess</h2>
+        <input type="number" id="inputbox" placeholder=" Enter Your Guess" min="1" max="100" onchange="compareguass()">
+        <div class="points">
+            <p>Number of previous Attempts</p>
+            <h3 id="attempts">0</h3>
+            <br>
+            <br>
+            <p>Number of previous Guesess</p>
+            <h3 id="guesses">0</h3>
+
+        </div>
+ 
+    </div>
+</section>
+
+    
+    <script src="suprise.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+body{
+    /* width: 100vw;
+    height: 100vh; */
+    background-color:#3f3b3b;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.firstbox{
+    height: 550px;
+    width: 400px;
+    background-color: brown;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border-radius: 10px;
+margin-top:30px ;
+/* display: none; */
+}
+
+.firstbox h2{
+    padding: 5px;
+    margin: 3px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.firstbox h3{
+    text-align: center;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+.firstbox img{
+    height: 300px;
+    width: 250px;
+    border-radius: 8px;
+
+}
+
+.button{
+    padding: 6px;
+    font-weight: 500;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin-bottom:5px ;
+}
+
+.secondbox{
+
+    height: 400px;
+    width: 400px;
+    background-color: brown;
+display: flex;
+/* justify-content: center; */
+align-items: center;
+flex-direction: column;
+border-radius: 10px;
+margin: 2rem 0 ;
+/* display: none; */
+
+}
+
+.secondbox h2{
+    padding: 5px;
+    margin: 6px 0;
+}
+
+
+#inputbox{
+    width: 50%;
+    height: 2rem;
+    padding: 5px;
+    margin-bottom: 7px;
+    border-radius:5px ;
+    font-size: 1rem;
+    font-weight: 400;
+border: none;
+
+}
+
+
+ #inputbox input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.points{
+    margin-top: 1rem;
+}
+.newgame{
+    padding: 6px;
+    font-weight: 500;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin:10px 0 ;
+    background-color: #5de45d;
+
+}
